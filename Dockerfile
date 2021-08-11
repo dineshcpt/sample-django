@@ -23,4 +23,3 @@ COPY ./* /usr/src/app/
 WORKDIR /usr/src/app
 RUN pip3.8 install --no-cache-dir -r requirements.txt
 EXPOSE 8000
-CMD ["python3.8", "manage.py", "runserver", "0.0.0.0:8000"]
